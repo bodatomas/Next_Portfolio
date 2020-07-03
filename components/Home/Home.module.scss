@@ -6,9 +6,9 @@
   overflow: hidden;
 
   header {
-    border-top: 1px solid $linesColor;
-    border-bottom: 1px solid $linesColor;
-    color: $linesColorText;
+    border-top: 1px solid rgba($color: #efeff1, $alpha: 0.06);
+    border-bottom: 1px solid rgba($color: #efeff1, $alpha: 0.06);
+    color: rgba($color: #efeff1, $alpha: 0.3);
     height: 25px;
 
     p {
@@ -36,7 +36,7 @@
 
     p {
       font-size: 24px;
-      color: $linesColorText;
+      color: rgba($color: #efeff1, $alpha: 0.3);
       margin-left: 10vw;
       width: 40vw;
     }

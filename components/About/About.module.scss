@@ -16,7 +16,7 @@
           font-size: 15px;
           display: flex;
           align-items: center;
-          color: $textColor;
+          color: #efeff1;
           span {
             font-size: 22px;
             margin-right: 10px;
@@ -41,7 +41,7 @@
     padding: 30px 30px;
     h2 {
       margin-bottom: 10px;
-      color: $linesColorText;
+      color: rgba($color: #efeff1, $alpha: 0.3);
     }
   }
 

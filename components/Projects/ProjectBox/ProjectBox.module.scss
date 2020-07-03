@@ -1,5 +1,3 @@
-@import '../../../styles/style.scss';
-
 .flexContainer {
   display: flex;
   flex-direction: column;
@@ -12,7 +10,7 @@
       position: absolute;
       word-spacing: 5px;
       max-width: 400px;
-      color: $linesColorText;
+      color: rgba($color: #efeff1, $alpha: 0.3);
       padding: 10px;
       transform: translate(0, -4vh);
     }
@@ -20,7 +18,7 @@
       width: 40vw;
       height: auto;
       overflow: hidden;
-      color: $textColor;
+      color: #efeff1;
       outline: none;
       font-size: 16px;
 
@@ -28,7 +26,7 @@
         position: absolute;
         width: 89%;
         height: 70%;
-        background-color: $mainBG;
+        background-color: #000;
         opacity: 0.7;
 
         img {
@@ -59,7 +57,7 @@
 
     .lineVert {
       height: 22vw;
-      background-color: $linesColor;
+      background-color: rgba($color: #efeff1, $alpha: 0.06);
       width: 1px;
       transform: translate(0, -2.5vw);
     }
@@ -67,7 +65,7 @@
 
   .line {
     height: 1px;
-    background-color: $linesColor;
+    background-color: rgba($color: #efeff1, $alpha: 0.06);
     width: 45vw;
     transform: translate(-2.5vw, 0);
   }
