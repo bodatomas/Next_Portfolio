@@ -1,0 +1,97 @@
+@import '../../../styles/style.scss';
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15vh;
+  .projectBox {
+    display: flex;
+    height: 17.5vw;
+
+    h3 {
+      position: absolute;
+      word-spacing: 5px;
+      max-width: 400px;
+      color: $linesColorText;
+      padding: 10px;
+      transform: translate(0, -4vh);
+    }
+    .box {
+      width: 40vw;
+      height: auto;
+      overflow: hidden;
+      color: $textColor;
+      outline: none;
+      font-size: 16px;
+
+      .hover {
+        position: absolute;
+        width: 89%;
+        height: 70%;
+        background-color: $mainBG;
+        opacity: 0.7;
+
+        img {
+          width: 34px;
+          height: 34px;
+          padding: 10px;
+          z-index: 2;
+          position: absolute;
+          left: 37vw;
+          top: 2vh;
+        }
+      }
+
+      .title {
+        position: absolute;
+        transform: translate(2vw, 13vw);
+        padding: 5px 10px;
+        background-color: #000;
+        font-size: 1em;
+        z-index: 1;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .lineVert {
+      height: 22vw;
+      background-color: $linesColor;
+      width: 1px;
+      transform: translate(0, -2.5vw);
+    }
+  }
+
+  .line {
+    height: 1px;
+    background-color: $linesColor;
+    width: 45vw;
+    transform: translate(-2.5vw, 0);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .flexContainer {
+    .line {
+      width: 220px;
+    }
+    .projectBox {
+      h3 {
+        font-size: 8px;
+      }
+      height: 100px;
+      .lineVert {
+        height: 118px;
+      }
+      .box {
+        width: 200px;
+        .title {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

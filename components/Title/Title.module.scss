@@ -1,0 +1,47 @@
+@import '../../styles/style.scss';
+
+.title {
+  font-size: 18px;
+
+  .flexContainer {
+    display: flex;
+
+    h1 {
+      width: 36vw;
+      padding: 10px 25px;
+
+      span {
+        padding-left: 10px;
+      }
+    }
+
+    .line {
+      height: 50px;
+      width: 1px;
+      background-color: $linesColor;
+      transform: translate(0, 2vw);
+    }
+  }
+
+  .lineBottom {
+    width: 41.5vw;
+    height: 1px;
+    background-color: $linesColor;
+    transform: translate(-3vw, 0);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .title {
+    font-size: 10px;
+    white-space: nowrap;
+    .flexContainer {
+      h1 {
+        width: 220px;
+      }
+    }
+    .lineBottom {
+      width: 245px;
+    }
+  }
+}

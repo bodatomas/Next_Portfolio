@@ -1,0 +1,70 @@
+@import '../../styles/style.scss';
+
+.about {
+  padding: 10vh 10vw;
+
+  .text {
+    padding-left: 1.3vw;
+    .emojiContainer {
+      margin-top: 5vh;
+      .emoji {
+        margin-top: 2vh;
+        a,
+        p {
+          width: 250px;
+          margin-left: 20px;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          color: $textColor;
+          span {
+            font-size: 22px;
+            margin-right: 10px;
+            width: 30px;
+          }
+          img {
+            width: 25px;
+            margin-right: 10px;
+          }
+        }
+        a:hover {
+          color: #551a8b;
+        }
+      }
+    }
+  }
+
+  .preTitle {
+    padding-left: 1.3vw;
+  }
+  .interests {
+    padding: 30px 30px;
+    h2 {
+      margin-bottom: 10px;
+      color: $linesColorText;
+    }
+  }
+
+  .aboutText {
+    width: 31vw;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 3vh 0;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .about {
+    .interests {
+      font-size: 12px;
+      width: 300px;
+      padding-left: 0;
+    }
+    .text {
+      .aboutText {
+        font-size: 13px;
+        width: 100%;
+      }
+    }
+  }
+}

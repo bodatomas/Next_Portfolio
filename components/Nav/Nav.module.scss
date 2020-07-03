@@ -1,0 +1,155 @@
+@import '../../styles/style.scss';
+
+.navigation {
+  .logo {
+    position: fixed;
+    left: calc(10vw - (60px / 2));
+    top: 5vh;
+    width: 60px;
+    text-align: center;
+    background-color: $mainBG;
+    color: $textColor;
+    text-decoration: none;
+
+    h1 {
+      font-size: 15px;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .burgerLinks {
+    position: fixed;
+    top: 10vh;
+    right: calc(10vw - (120px / 2));
+    height: 20vh;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $mainBG;
+    text-align: center;
+
+    button {
+      background-color: $mainBG;
+      color: $textColor;
+      font-family: 'Orbitron', fallback, sans-serif;
+      border: none;
+      font-size: 19px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: none;
+    }
+
+    button:hover::before {
+      content: '';
+      background: url('../../public/Icons/arrow.png') no-repeat;
+      background-position: center;
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .burger {
+    position: fixed;
+    right: calc(10% - (50px / 2));
+    top: 5vh;
+    background-color: $mainBG;
+    cursor: pointer;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .line {
+      width: 30px;
+      height: 4px;
+      margin-top: 5px;
+      background-color: $textColor;
+    }
+
+    .line:last-child {
+      margin-bottom: 5px;
+    }
+
+    .midLine {
+      width: 20px;
+      height: 4px;
+      background-color: $textColor;
+      margin-top: 5px;
+    }
+  }
+
+  .scrollDown {
+    position: fixed;
+    bottom: 14vh;
+    left: calc(10% - (240px / 2));
+    transform: rotate(90deg);
+    font-size: 14px;
+    font-weight: bold;
+    background-color: $mainBG;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      font-size: 1.3rem;
+      font-family: 'Orbitron', fallback, sans-serif;
+      border: none;
+      cursor: pointer;
+      box-shadow: none;
+      background-color: $mainBG;
+      color: $textColor;
+      font-weight: bold;
+      outline: none;
+    }
+
+    img {
+      height: 50px;
+      position: relative;
+      animation-name: floating;
+      animation-duration: 1.3s;
+      animation-iteration-count: infinite;
+    }
+
+    h1 {
+      padding-left: 10px;
+    }
+  }
+
+  .social {
+    position: fixed;
+    right: calc(10% - (40px / 2));
+    bottom: 7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40px;
+    height: 160px;
+    padding: 10px 0;
+    background-color: $mainBG;
+  }
+}
+
+@keyframes floating {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
+}
