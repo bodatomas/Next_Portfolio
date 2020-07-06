@@ -12,7 +12,7 @@
       max-width: 400px;
       color: rgba($color: #efeff1, $alpha: 0.3);
       padding: 10px;
-      transform: translate(0, -4vh);
+      transform: translate(0, -100%);
     }
     .box {
       width: 40vw;
@@ -25,7 +25,7 @@
       .hover {
         position: absolute;
         width: 89%;
-        height: 70%;
+        height: 17.5vw;
         background-color: #000;
         opacity: 0.7;
 

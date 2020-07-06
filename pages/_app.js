@@ -23,13 +23,13 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
 
     return (
-      <div>
+      <>
         <Head>
           <title>Tomas Boda</title>
           <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
         </Head>
         <Component {...pageProps} />
-      </div>
+      </>
     );
   }
 }
