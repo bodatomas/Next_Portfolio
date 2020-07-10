@@ -1,10 +1,12 @@
 .flexContainer {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15vh;
+  margin-bottom: 20%;
   .projectBox {
     display: flex;
     height: 17.5vw;
+    max-height: 400px;
+    max-width: 970px;
 
     h3 {
       position: absolute;
@@ -16,6 +18,7 @@
     }
     .box {
       width: 40vw;
+      max-width: 970px;
       height: auto;
       overflow: hidden;
       color: #efeff1;
@@ -24,8 +27,8 @@
 
       .hover {
         position: absolute;
-        width: 89%;
-        height: 17.5vw;
+        width: 90%;
+        height: 66%;
         background-color: #000;
         opacity: 0.7;
 
@@ -35,14 +38,15 @@
           padding: 10px;
           z-index: 2;
           position: absolute;
-          left: 37vw;
+          left: 87%;
           top: 2vh;
         }
       }
 
       .title {
         position: absolute;
-        transform: translate(2vw, 13vw);
+        left: 10%;
+        bottom: 40%;
         padding: 5px 10px;
         background-color: #000;
         font-size: 1em;
@@ -57,6 +61,7 @@
 
     .lineVert {
       height: 22vw;
+      max-height: 520px;
       background-color: rgba($color: #efeff1, $alpha: 0.06);
       width: 1px;
       transform: translate(0, -2.5vw);
@@ -67,6 +72,7 @@
     height: 1px;
     background-color: rgba($color: #efeff1, $alpha: 0.06);
     width: 45vw;
+    max-width: 1120px;
     transform: translate(-2.5vw, 0);
   }
 }
@@ -74,7 +80,7 @@
 @media only screen and (max-width: 720px) {
   .flexContainer {
     .line {
-      width: 220px;
+      width: 233px;
     }
     .projectBox {
       h3 {
@@ -82,12 +88,21 @@
       }
       height: 100px;
       .lineVert {
-        height: 118px;
+        height: 120px;
       }
       .box {
-        width: 200px;
+        width: 210px;
+        .hover {
+          width: 230px;
+          height: 70%;
+          img {
+            left: 70%;
+          }
+        }
+
         .title {
           font-size: 10px;
+          left: 5%;
         }
       }
     }
