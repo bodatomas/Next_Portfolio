@@ -29,17 +29,33 @@
         position: absolute;
         width: 90%;
         height: 66%;
-        background-color: #000;
-        opacity: 0.7;
+        background-color: rgba($color: #000, $alpha: 0.4);
+        cursor: default;
 
-        img {
-          width: 34px;
-          height: 34px;
-          padding: 10px;
-          z-index: 2;
-          position: absolute;
-          left: 87%;
-          top: 2vh;
+        .linksHover {
+          position: relative;
+          top: 20%;
+          left: 10%;
+          a {
+            color: #efeff1;
+            font-size: 18px;
+            background-color: #000;
+            z-index: 2;
+            padding: 10px 20px;
+            margin-left: 10px;
+
+            &:hover {
+              color: #551a8b;
+            }
+            img {
+              width: 34px;
+              height: 34px;
+              padding: 10px;
+              z-index: 2;
+              position: relative;
+              top: 10px;
+            }
+          }
         }
       }
 
@@ -95,8 +111,18 @@
         .hover {
           width: 230px;
           height: 70%;
-          img {
-            left: 70%;
+          .linksHover {
+            top: 5%;
+            left: 5%;
+            a {
+              font-size: 8px;
+              width: 30px;
+              padding: 5px 5px;
+              img {
+                left: 3%;
+                top: 15px;
+              }
+            }
           }
         }
 

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './ProjectBox.module.scss';
 
-const ProjectBox = ({ image, name, link, technologies }) => {
+const ProjectBox = ({ image, name, link, technologies, linkDemo }) => {
   const [hover, setHover] = useState(false);
 
   const handleMouseEnter = () => {
@@ -18,24 +18,30 @@ const ProjectBox = ({ image, name, link, technologies }) => {
       <div className={styles.line} />
       <div className={styles.projectBox}>
         <div className={styles.lineVert} />
-        <a
-          href={link}
-          target="_blank"
-          rel="noreferrer"
+        <div
           className={styles.box}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
           {hover && (
             <div className={styles.hover}>
-              <img src="/Icons/Launch.png" alt="link" />
+              <div className={styles.linksHover}>
+                <a href={linkDemo} target="_blank" rel="noreferrer">
+                  Live Demo
+                  <img src="/Icons/Launch.png" alt="link" />
+                </a>
+                <a href={link} target="_blank" rel="noreferrer">
+                  Code
+                  <img src="/Icons/Launch.png" alt="link" />
+                </a>
+              </div>
             </div>
           )}
           <div className={styles.title}>
             <h2>{name}</h2>
           </div>
           <img src={image} alt="mern" />
-        </a>
+        </div>
         <div className={styles.lineVert} />
         <h3>{technologies}</h3>
       </div>
@@ -48,6 +54,7 @@ ProjectBox.propTypes = {
   image: PropTypes.string,
   name: PropTypes.string,
   link: PropTypes.string,
+  linkDemo: PropTypes.string,
   technologies: PropTypes.string,
 };
 
@@ -55,6 +62,7 @@ ProjectBox.defaultProps = {
   image: '',
   name: '',
   link: '',
+  linkDemo: '',
   technologies: '',
 };
 

@@ -8,6 +8,7 @@ const ProjectsData = [
     name: 'PokeInfo Vue.js',
     image: '/Images/Screenshot-4.png',
     link: 'https://github.com/ImTomz/PokeInfo',
+    linkDemo: 'https://clever-visvesvaraya-d647ba.netlify.app',
     technologies: 'Vue.js REST',
     id: 1,
   },
@@ -15,6 +16,7 @@ const ProjectsData = [
     name: 'Static HTML web',
     image: '/Images/Screenshot-2.png',
     link: 'https://github.com/ImTomz/Static-responsive-Web',
+    linkDemo: 'https://sharp-benz-9bf026.netlify.app',
     technologies: 'HTML5 CSS3 Javascript',
     id: 2,
   },
@@ -22,6 +24,7 @@ const ProjectsData = [
     name: 'Landing page GSAP',
     image: '/Images/Screenshot-3.png',
     link: 'https://github.com/ImTomz/Landing_PageGSAP',
+    linkDemo: 'https://gifted-lamport-4a085b.netlify.app/',
     technologies: 'HTML5 CSS3 Javascript GSAP',
     id: 3,
   },
@@ -47,6 +50,7 @@ const Projects = () => {
               name={item.name}
               image={item.image}
               link={item.link}
+              linkDemo={item.linkDemo}
               technologies={item.technologies}
             />
           </div>
