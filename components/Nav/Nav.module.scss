@@ -8,6 +8,7 @@
     background-color: #000;
     color: #efeff1;
     text-decoration: none;
+    outline: none;
 
     h1 {
       font-size: 15px;
@@ -68,6 +69,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    outline: none;
 
     .line {
       width: 30px;
