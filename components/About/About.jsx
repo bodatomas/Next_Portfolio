@@ -22,15 +22,15 @@ const About = () => {
         <p data-aos="fade-up" className={styles.aboutText}>
           I started my developer journey about a year ago. From the beginnig I
           was mainly focused on Frontend development and little bit on design
-          aswell. After long time thinking about which technology should I
-          choose from that many out there, I chose React.js because its very
-          valuable in nowadays and I had a lot of fun working with it. I have
-          small experience with Vue.js aswell. I&apos;m also open to other
+          aswell. After long time deciding which technology should I choose from
+          that many out there, I chose React.js because its very valuable in
+          nowadays and I had a lot of fun working with it. I have small
+          experience with Vue.js aswell. I&apos;m also open to other
           technologies.
         </p>
         <p data-aos="fade-up" className={styles.aboutText}>
-          I&apos;m always looking forward for new technologies, and I&apos;m
-          able to quickly learn them.
+          I&apos;m always looking forward for new technologies, and I think
+          I&apos;m able to quickly learn them.
         </p>
         <div className={styles.emojiContainer}>
           <h2 data-aos="fade-up">I value:</h2>
