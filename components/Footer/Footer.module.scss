@@ -22,6 +22,7 @@
         display: flex;
         align-items: center;
         color: #efeff1;
+        padding-left: 10px;
         img {
           width: 25px;
           margin-right: 5px;
@@ -62,6 +63,7 @@
       flex-direction: column;
       .links {
         flex-direction: column;
+        padding-left: 0;
       }
     }
   }
