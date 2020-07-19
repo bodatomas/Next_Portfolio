@@ -64,21 +64,36 @@ const About = () => {
         <div className={styles.emojiContainer}>
           <h2 data-aos="fade-up">My preffered technologies:</h2>
           <div className={styles.emoji}>
-            <a href="https://reactjs.org/" data-aos="fade-up">
+            <a
+              href="https://reactjs.org/"
+              data-aos="fade-up"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="https://img.icons8.com/plasticine/100/000000/react.png"
                 alt="react.js"
               />
               React.js
             </a>
-            <a href="https://vuejs.org/" data-aos="fade-up">
+            <a
+              href="https://vuejs.org/"
+              data-aos="fade-up"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="https://img.icons8.com/color/48/000000/vue-js.png"
                 alt="Vue.js"
               />
               Vue.js
             </a>
-            <a href="https://sass-lang.com/" data-aos="fade-up">
+            <a
+              href="https://sass-lang.com/"
+              data-aos="fade-up"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="https://img.icons8.com/color/48/000000/sass.png"
                 alt="Sass"
@@ -99,14 +114,24 @@ const About = () => {
               />
               Css3
             </p>
-            <a href="https://www.unrealengine.com/en-US/" data-aos="fade-up">
+            <a
+              href="https://www.unrealengine.com/en-US/"
+              data-aos="fade-up"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="https://img.icons8.com/color/48/000000/unreal-engine.png"
                 alt="ue4"
               />
               Unreal Engine 4
             </a>
-            <a href="https://www.blender.org/" data-aos="fade-up">
+            <a
+              href="https://www.blender.org/"
+              data-aos="fade-up"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="https://img.icons8.com/color/48/000000/blender-3d.png"
                 alt="blender"

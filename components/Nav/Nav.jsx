@@ -112,7 +112,9 @@ const Nav = () => {
               onClick={() =>
                 window.scrollTo(
                   0,
-                  3 * window.innerHeight + window.innerHeight / 2
+                  3 * window.innerHeight +
+                    window.innerHeight / 2 +
+                    window.innerHeight / 2
                 )
               }
             >
@@ -131,10 +133,10 @@ const Nav = () => {
                 </button>
               );
             }
-            if (scrollPosition > 200 && scrollPosition < 2000) {
+            if (scrollPosition > 200 && scrollPosition < 2400) {
               return <h1>Projects</h1>;
             }
-            if (scrollPosition > 2000 && scrollPosition < 2700) {
+            if (scrollPosition > 2400 && scrollPosition < 3200) {
               return <h1>Art</h1>;
             }
             return <h1>About</h1>;

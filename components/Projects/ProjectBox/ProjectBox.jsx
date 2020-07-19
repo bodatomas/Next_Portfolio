@@ -26,10 +26,12 @@ const ProjectBox = ({ image, name, link, technologies, linkDemo }) => {
           {hover && (
             <div className={styles.hover}>
               <div className={styles.linksHover}>
-                <a href={linkDemo} target="_blank" rel="noreferrer">
-                  Live Demo
-                  <img src="/Icons/Launch.png" alt="link" />
-                </a>
+                {linkDemo && (
+                  <a href={linkDemo} target="_blank" rel="noreferrer">
+                    Live Demo
+                    <img src="/Icons/Launch.png" alt="link" />
+                  </a>
+                )}
                 <a href={link} target="_blank" rel="noreferrer">
                   Code
                   <img src="/Icons/Launch.png" alt="link" />

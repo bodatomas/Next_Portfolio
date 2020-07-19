@@ -13,6 +13,14 @@ const ProjectsData = [
     id: 1,
   },
   {
+    name: 'React/Redux-e-commerce',
+    image: '/Images/Redux.png',
+    link: 'https://github.com/ImTomz/React-Redux-e-commerce',
+    linkDemo: 'https://naughty-aryabhata-9fd534.netlify.app/',
+    technologies: 'React Redux',
+    id: 5,
+  },
+  {
     name: 'Static HTML web',
     image: '/Images/Screenshot-2.png',
     link: 'https://github.com/ImTomz/Static-responsive-Web',
