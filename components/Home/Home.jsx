@@ -19,7 +19,7 @@ const HomePage = () => {
             My name is Tomas and I&apos;m frontend developer.
           </h1>
           <p className={styles.subTitle}>
-            Hobbyist 3D artist with interests in game development.
+            Hobbyist 3D artist.
           </p>
         </div>
       </div>
