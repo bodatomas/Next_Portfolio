@@ -16,6 +16,11 @@ const Art = () => {
         </div>
         <section className={styles.showCase} data-aos="fade-up">
           <ShowBox
+            img="/Images/Mac.png"
+            altImg="Mac"
+            linkq="https://www.artstation.com/artwork/28L91e"
+          />
+          <ShowBox
             img="/Images/Scope.png"
             altImg="Scope"
             link="https://www.artstation.com/artwork/mqmVlE"
