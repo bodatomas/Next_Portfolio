@@ -18,7 +18,7 @@ const Art = () => {
           <ShowBox
             img="/Images/Mac.png"
             altImg="Mac"
-            linkq="https://www.artstation.com/artwork/28L91e"
+            link="https://www.artstation.com/artwork/28L91e"
           />
           <ShowBox
             img="/Images/Scope.png"
