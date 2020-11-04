@@ -64,6 +64,18 @@
       .links {
         flex-direction: column;
         padding-left: 0;
+        font-size: 12px;
+        a img {
+          width: 15px;
+        }
+      }
+      .email {
+        a {
+          font-size: 12px;
+        }
+        span {
+          font-size: 15px;
+        }
       }
     }
   }
