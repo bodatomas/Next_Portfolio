@@ -141,32 +141,32 @@ const Nav = () => {
             }
             return <h1>About</h1>;
           })()}
-          {scrollPosition < 200 && <img src="/Icons/arrow.png" alt="arrow" />}
+          {scrollPosition < 200 && <img src="/Icons/arrow.svg" alt="arrow" />}
         </div>
         <div className={styles.social}>
           <a href="https://github.com/ImTomz" target="_blank" rel="noreferrer">
-            <img src="/Icons/github.png" alt="github" />
+            <img src="/Icons/github.svg" alt="github" />
           </a>
           <a
             href="https://www.linkedin.com/in/imtomz/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/Icons/linked.png" alt="linked" />
+            <img src="/Icons/linkedin.svg" alt="linked" />
           </a>
           <a
             href="https://twitter.com/t_bodaa"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/Icons/twitter.png" alt="twitter" />
+            <img src="/Icons/twitter.svg" alt="twitter" />
           </a>
           <a
             href="https://www.instagram.com/t_bodaa/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/Icons/insta.png" alt="insta" />
+            <img src="/Icons/instagram.svg" alt="insta" />
           </a>
         </div>
       </div>

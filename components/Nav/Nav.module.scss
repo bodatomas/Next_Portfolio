@@ -25,6 +25,7 @@
     top: 10vh;
     right: calc(10vw - (120px / 2));
     height: 20vh;
+    margin-top: 10px;
     width: 120px;
     display: flex;
     flex-direction: column;
@@ -48,7 +49,7 @@
 
     button:hover::before {
       content: '';
-      background: url('../../public/Icons/arrow.png') no-repeat;
+      background: url('../../public/Icons/arrow.svg') no-repeat;
       background-position: center;
       display: inline-block;
       width: 22px;

@@ -5,7 +5,7 @@ const HomePage = () => {
     <div className={styles.home}>
       <header>
         <p>
-          Html5 CSS3 Javascript React.js Next.js Vue.js Sass Npm Git | UE4
+          Html5 CSS3 Javascript React.js Next.js Vue.js Sass Npm Git | UE4 Unity
           Blender
         </p>
       </header>
