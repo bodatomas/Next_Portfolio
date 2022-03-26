@@ -67,7 +67,7 @@ const Footer = () => {
       </div>
       <div className={styles.copyright}>
         <img src="/Icons/copyright.svg" alt="copyright" />
-        <p>2021 Tomas Boda.</p>
+        <p>2022 Tomas Boda.</p>
       </div>
     </div>
   );

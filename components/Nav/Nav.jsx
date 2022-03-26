@@ -115,8 +115,7 @@ const Nav = () => {
                   3 * window.innerHeight +
                     window.innerHeight / 2 +
                     window.innerHeight / 2
-                )
-              }
+                )}
             >
               About
             </button>
@@ -144,7 +143,11 @@ const Nav = () => {
           {scrollPosition < 200 && <img src="/Icons/arrow.svg" alt="arrow" />}
         </div>
         <div className={styles.social}>
-          <a href="https://github.com/ImTomz" target="_blank" rel="noreferrer">
+          <a 
+            href="https://github.com/bodatomas" 
+            target="_blank" 
+            rel="noreferrer"
+          >
             <img src="/Icons/github.svg" alt="github" />
           </a>
           <a
